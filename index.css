@@ -8,3 +8,24 @@ body {
   background-color: darkslategrey;
   text-decoration: none;
 }
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+/* .navbar ul li {
+  text-decoration: none;
+} */
