@@ -9,6 +9,10 @@ body {
   text-decoration: none;
 }
 
+header {
+  position: sticky;
+  top: 0px;
+}
 .navbar {
   width: 100%;
   background-color: black;
@@ -26,6 +30,6 @@ body {
   gap: 2rem;
   list-style: none;
 }
-/* .navbar ul li {
+.navbar ul li a {
   text-decoration: none;
-} */
+}
